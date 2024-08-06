@@ -28,7 +28,7 @@ function displayBooks(){
             <h3>${book.title}</h3>
             <p>Author: ${book.author}</p>
             <p>Pages: ${book.pages}</p>
-            <p>Read: ${book.read ? "Yes" : "No"}</p>
+            <p>Status: ${book.read ? "Read" : "Not Read Yet"}</p>
             <button onclick="removeBook(${index})">Remove</button>
             <button onclick="toggleReadStatus(${index})">Toggle Read</button>
             `
