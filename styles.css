@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d0f4de;
+}
+
+.book-card {
+    border-radius: 10px;
+    background-color: rgb(255, 251, 223);
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+#bookDialog {
+    padding: 20px;
+}
+
+#bookForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h3{
+    margin-top: 0;
+}
+
+button{
+    cursor: pointer;
+    padding: 8px;
+    background-color: #eed1ff;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid;
+}
+
+#newBookBtn{
+    margin-bottom: 20px;
+    
+}
